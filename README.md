@@ -4,8 +4,8 @@ Dockerfiles for assisting in development at FSSA DSE
 ### Usage
 
 ```bash
-docker build -t dse_builder_docker .
-docker run -it --rm dse_builder_docker
+$ docker build -t dse_builder_docker .
+$ docker run -it --rm dse_builder_docker
 ```
 ### Notes
 
