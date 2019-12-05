@@ -17,6 +17,6 @@ $ apk add some-package
 
 and not
 
-```python
+```bash
 $ apt-get install some-package
 ```
