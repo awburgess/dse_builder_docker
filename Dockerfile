@@ -3,6 +3,7 @@ FROM docker:dind
 RUN \
   apk update && \
   apk add bash py-pip curl && \
+  apk add git && \
   apk add --virtual=build gcc libffi-dev musl-dev openssl-dev python3-dev make && \
   apk add --no-cache --update python3 && \
   pip3 install --upgrade pip setuptools && \
